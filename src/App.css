@@ -1,0 +1,38 @@
+html, body, #root, .App{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+body {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    align-items: center;
+
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 6vw;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #2899FE, #6ED6FE);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb); */
+}
